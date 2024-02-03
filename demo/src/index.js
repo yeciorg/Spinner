@@ -6,10 +6,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     { /* default */ }
-    <Spinner loading={true} />
+    <Spinner />
 
     { /* custom spinner */ }
-    <Spinner loading={true} spinnerProps={{ height: 100, width: 100, borderThickness: '5px', borderTopThickness: '2px', borderColor: '#FF5722', animationDuration: 2 }} />
+    <Spinner spinnerProps={{ height: 100, width: 100, borderThickness: '5px', borderTopThickness: '2px', borderColor: '#FF5722', animationDuration: 2 }} />
 
   </React.StrictMode>
 );
