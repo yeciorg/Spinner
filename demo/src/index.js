@@ -7,7 +7,7 @@ root.render(
   <React.StrictMode>
     { /* default */ }
     <Spinner />
-
+    
     { /* custom spinner */ }
     <Spinner spinnerProps={{ height: 100, width: 100, borderThickness: '5px', borderTopThickness: '2px', borderColor: '#FF5722', animationDuration: 2 }} />
 
