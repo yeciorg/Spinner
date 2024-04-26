@@ -6,7 +6,7 @@ const Spinner = ({ spinnerProps }) => {
   const { height = 40, width = 40, borderThickness = '3px', borderTopThickness = '1px', borderColor = '#37474F', animationDuration = 1 } = spinnerProps || {};
 
   return (
-    <div className="yed-spinner-loading-overlay">
+    <div className="yeci-spinner-loading-overlay">
       <div className="loading-spinner" style={{ 
         border: `${borderThickness} dashed ${borderColor}`,
         borderRadius: '50%',

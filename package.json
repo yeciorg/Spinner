@@ -1,6 +1,6 @@
 {
-  "name": "@yedapp/spinner",
-  "version": "0.0.4",
+  "name": "@yeci/spinner",
+  "version": "0.0.5",
   "description": "A Loading Spinner for React",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yedapp/spinner.git"
+    "url": "git+https://github.com/yeciorg/spinner.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   "author": "Bin Hua",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yedapp/spinner/issues"
+    "url": "https://github.com/yeciorg/spinner/issues"
   },
-  "homepage": "https://github.com/yedapp/spinner",
+  "homepage": "https://github.com/yeciorg/spinner",
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.8",
